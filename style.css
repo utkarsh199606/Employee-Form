@@ -1,0 +1,114 @@
+html{
+    font-family: cursive;
+    letter-spacing: 0.5;
+    background: linear-gradient(120deg,#2980b9, #8e44ad);
+}
+.form{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 30%;
+    padding: 0 30px 50px 30px;
+    /* color:#fff; */
+    background: white;
+    border-radius: 10px;
+}
+#first{
+    padding: 15px;
+    width: 80%;
+    outline-color: #2691d9;
+    border-radius: 10px;
+}
+#second,#third,#fifth,#sixth,#seventh{
+    margin-top: 20px;
+    padding: 15px;
+    width: 80%;
+    border-radius: 10px;
+    outline-color: #2691d9;
+}
+#btn{
+    padding: 10px 30px 10px 30px;
+    margin-top: 40px;
+    background-color:#2691d9;
+    border:0;
+    color:#fff;
+    border-radius: 10px;
+}
+#radio input{
+    accent-color:#2691d9;
+}
+
+form p{
+    font-weight: 600;
+    font-size: 30px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    border-bottom: 2px solid silver;
+}
+table{
+    border: 2px solid rgba(0,0,0,0.2);
+    margin: 50px 0px 0px 0%;
+    padding: 10px 30px 10px 30px;
+    border-collapse: collapse;
+    background-color: white;
+}
+th,td{
+    border: 2px solid rgba(0,0,0,0.2);
+    padding: 10px 50px 10px 50px;
+}
+
+/* tr:nth-child(odd){
+    background:rgba(0,0,0,0.2);
+} */
+.seperate{
+    display: flex;
+    justify-content: space-around;
+}
+.filter{
+    text-align: center;
+    /* border: 2px solid black; */
+    width: 30%;
+    height: 430px;
+    /* color:#fff; */
+    background:white;
+    border-radius: 10px;
+    margin-top: 150px;
+    font-weight: 600;
+    font-size: 30px;
+}
+#search{
+    /* border: none; */
+    outline-color: #2691d9;
+    border-radius: 10px;
+    margin-top: 20px;
+    padding: 10px 20px 10px 20px;
+    width: 70%;
+    height: 50px;
+}
+
+#button{
+    padding: 10px 30px 10px 30px;
+    margin-top: 20px;
+    background-color:#2691d9;
+    border:0;
+    color:#fff;
+    border-radius: 10px;
+}
+#eight{
+    margin-top: 40px;
+    padding: 15px;
+    width: 60%;
+    outline-color: #2691d9;
+    /* color:#fff; */
+    /* border:0; */
+    border-radius: 10px;
+}
+
+#btnClear{
+    padding: 10px 40px 10px 30px;
+    margin-top: 20px;
+    margin-left: 20px;
+    background-color:#2691d9;
+    border:0;
+    color:#fff;
+    border-radius: 10px;
+}

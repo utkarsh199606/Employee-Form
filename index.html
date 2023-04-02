@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <title>Form-Table</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="seperate">
+      <div class="form">
+        <form>
+          <p>Employee Form</p>
+          <input
+            type="number"
+            Department
+            name="emp_no"
+            id="first"
+            placeholder="Employee Number"
+            autocomplete="off"
+          />
+          <br />
+          <input
+            type="text"
+            name="emp_name"
+            id="second"
+            placeholder="Employee Name"
+            autocomplete="off"
+          />
+          <br />
+          <input
+            type="text"
+            name="emp_address"
+            id="third"
+            placeholder="Employee Address"
+            autocomplete="off"
+            style="margin-bottom: 20px"
+          />
+          <br />
+          <label for="gender" id="gender"><b>Gender</b></label
+          ><br />
+          <br />
+          <div id="radio">
+            <input
+              type="radio"
+              class="forth"
+              name="Gender"
+              value="Male"
+              checked="true"
+            />Male
+            <input
+              type="radio"
+              class="forth"
+              name="Gender"
+              value="Female"
+              style="margin-left: 50px"
+            />Female
+            <input
+              type="radio"
+              class="forth"
+              name="Gender"
+              value="Other"
+              style="margin-left: 50px"
+            />Other
+          </div>
+          <br />
+          <input
+            type="number"
+            name="emp_age"
+            id="fifth"
+            placeholder="Employee Age"
+            autocomplete="off"
+          />
+          <br />
+          <select name="department" id="sixth">
+            <option value="Department">Employee Department Name</option>
+            <option value="Marketing">Marketing</option>
+            <option value="Operations">Operations</option>
+            <option value="Finance">Finance</option>
+            <option value="Salary">Sales</option>
+            <option value="HR">HR</option>
+            <option value="Purchase">Purchase</option>
+          </select>
+          <br />
+          <input
+            type="number"
+            name="emp_salary"
+            id="seventh"
+            placeholder="Employee Salary"
+            autocomplete="off"
+          />
+          <br />
+          <input
+            type="submit"
+            name="button"
+            id="btn"
+            onclick="return CreateList();"
+          />
+        </form>
+      </div>
+
+      <div class="filter">
+        <form>
+          <p>Search</p>
+          <select name="search" id="search">
+            <option value="Number">Employee Number</option>
+            <option value="Name">Employee Name</option>
+            <option value="Address">Employee Address</option>
+            <option value="Gender">Employee Gender</option>
+            <option value="Age">Employee Age</option>
+            <option value="Department">Employee Department Name</option>
+            <option value="Salary">Employee Salary</option>
+          </select>
+          <br />
+          <input
+            type="text"
+            name="emp_search"
+            id="eight"
+            placeholder="Search Anything"
+            autocomplete="off"
+            style="margin-bottom: 20px"
+          />
+          <br />
+          <input
+            type="submit"
+            value="Search"
+            id="button"
+            onclick="return SearchClick();"
+          />
+          <input
+            type="submit"
+            id="btnClear"
+            value="Clear"
+            onclick="return ClearClick();"
+          />
+        </form>
+      </div>
+    </div>
+    <div class="table">
+      <table id="table">
+        <tr>
+          <th>Employee Number</th>
+          <th>Employee Name</th>
+          <th>Employee Address</th>
+          <th>Employee Gender</th>
+          <th>Employee Age</th>
+          <th>Employee Department Name</th>
+          <th>Employee Salary</th>
+        </tr>
+        <tbody id="table1"></tbody>
+      </table>
+    </div>
+  </body>
+  <script src="script.js"></script>
+</html>
